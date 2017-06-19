@@ -1,0 +1,59 @@
+body {
+  background-color: gold;
+}
+.bani {
+  background-color: lightblue;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.placeholder {
+  height: 150px;
+  width: 100%;
+}
+
+.cursive {
+  color: white;
+  font-style: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  vertical-align: center;
+  width: 80px;
+}
+
+.image {
+  left: 0px;
+  position: relative;
+  top: 30%;
+}
+
+.deux {
+  background-image: url(../img/couche_soleil.jpg);
+  height: 200px;
+  width: 100%
+}
+
+.deux p {
+  left: 50%;
+  position: absolute;
+  margin : 0;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.placeholder {
+  height: 200px;
+  width: 100%;
+}
+
+.font {
+  font-style: verdana;
+  font-family: fantasy;
+}
